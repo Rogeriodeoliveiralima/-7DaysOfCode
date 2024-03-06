@@ -22,9 +22,9 @@ body{
     justify-content: space-between;
     align-items:center;
     padding: 20px;
+    margin: 0px 80px;
 }
 .navbar__logo{
-    margin-left: 80px;
     padding: 28px;
 }
 .navbar__Link{
@@ -40,7 +40,6 @@ body{
     display: flex;
     align-items: center;
     gap:30px;
-    margin-right: 80px;
 }
 
 .navbar__botões__entrar{
