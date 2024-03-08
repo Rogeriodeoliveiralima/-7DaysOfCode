@@ -95,6 +95,35 @@ body{
     font-size: 20px ;
     line-height: 1.8rem;
     text-align: center;
-    color: var(--cor-cinza);
+    color: var(--cor-cinza);  
+}
+.metricas-container{
+   justify-content: space-evenly;
+    display:grid; 
+    grid-template-columns:280px 280px 280px 280px ;
+    padding: 56px;
+    width:75%;
+    margin: 0 13%;
+    gap: 32px;
    
+}
+.metricas__titulo{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: var(--cor-marrom);
+}
+.metricas__titulo__segundario{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 18px; 
+    color: var(--cor-preto);
+    padding: 12px 0 8px 0;
+}
+.metricas__texto{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:var(--cor-cinza); 
+    line-height: 24px;
 }
