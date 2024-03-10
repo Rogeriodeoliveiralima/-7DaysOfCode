@@ -129,5 +129,30 @@ body{
     line-height: 24px;
 }
 .vagas{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    gap: 20px;
+    padding: 150px 0 90px 0;
+}
+.vagas__abertas{
+    font-family:"Inter",sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-marrom);
+}
+.vagas__titulos_talentos{
+    font-family: "Inter", sans-serif;
+    font: 600;
+    font-size: 36px;
+    color:var(--cor-preto);
+}
+.vagas__texto{
+    font-family:"Inter",sans-serif ;
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+}
+.imagem{
+    padding: 4rem;
 }
