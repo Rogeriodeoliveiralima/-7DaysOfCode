@@ -200,3 +200,42 @@ body{
     color:var(--cor-cinza);
 }
 
+
+.colaborador__titulo{
+    font-family:"Inter",sans-serif ;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-marrom);
+    text-align: center;
+    margin: 84px 0 16px 0;
+}
+.colaborador__texto{
+    margin: 0 15%;
+    font-family:"Inter",sans-serif ;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cor-preto);
+    text-align: center;
+}
+
+.avatar{
+    margin:  32px auto;
+    display: block;
+}
+
+.colaborador__texto__julia{
+color:var(--cor-preto);
+font-family:"Inter",sans-serif ;
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+
+}
+.colaborador__texto__desenvolvedora{
+color:var(--cor-cinza);
+font-family:"Inter",sans-serif ;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+margin: 6px;
+}
