@@ -214,8 +214,15 @@ body{
     margin: 84px 0 16px 0;
     padding: 10px;
 }
+.colaborador{
+    background-color:#efeff5;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 16px;
+    
+}
 .colaborador__texto{
-    margin: 0 15%;
+    margin: 0 10%;
     font-family:"Inter",sans-serif ;
     font-size: 36px;
     font-weight: 500;
@@ -227,6 +234,7 @@ body{
     margin:  32px auto;
     display: block;
 }
+
 
 .colaborador__texto__julia{
 color:var(--cor-preto);
